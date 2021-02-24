@@ -1,1 +1,1 @@
-print("haris")
+#type data
