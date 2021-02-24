@@ -1,4 +1,4 @@
-# variabel adalah untuk menyimpan  sebuah nilai data
+# variabel adalah untuk menyimpan sebuah nilai data
 
 """
 x = 5
@@ -21,10 +21,36 @@ X = "ya"
 # multi word variabel name
 - camel case
 myVariabel = "haris"
+
 - pascal case
 MyVariabel = "haris"
+
 - snack case
 my_variabel = "haris"
+
+# assign multiple values
+- many values(variabel satu line)
+x = "haris","dika","rehan"
+print("haris")
+print("dika")
+print("rehan")
+
+- unpack collaction
+x = ["mangga","jeruk"]
+buah = x
+print(x)
+
+# global variabel (variabel yang diluar fungsi, seperti contoh diatas disebut variabel global)
+-variabel diluar fungsi
+x = "pohon"
+
+def myfunct():
+    print(x,"saya")
+
+myfunct()
+
+-variabel didalam fungsi
+
 
 
 """
