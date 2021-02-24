@@ -49,7 +49,14 @@ def myfunct():
 
 myfunct()
 
--variabel didalam fungsi
+- variabel didalam fungsi dan bisa dipakai diluar fungsi
+def myfunct():
+    global x
+    x = "mangga"
+    print(x,"manis")
+myfunct()
+
+print(x,"pahit")
 
 
 
