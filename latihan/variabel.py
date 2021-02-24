@@ -57,9 +57,5 @@ def myfunct():
 myfunct()
 
 print(x,"pahit")
-t
-t
-
-
 
 """
